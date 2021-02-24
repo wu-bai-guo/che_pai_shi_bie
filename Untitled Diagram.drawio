@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T07:05:53.806Z" agent="5.0 (X11)" version="14.4.2" etag="PU_0UDhaYB8KtcD8SkQG" type="github"><diagram id="esFBdvzKeRnVDuzLGCBy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-24T12:59:10.337Z" agent="5.0 (X11)" etag="u2C3VoOU00lKNMZpSU-u" version="14.4.2" type="github">
+  <diagram id="esFBdvzKeRnVDuzLGCBy" name="Page-1">
+    <mxGraphModel dx="1350" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#DAD2D8" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yxDq9Ks9lLOBpygDwxMw-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="20" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="yxDq9Ks9lLOBpygDwxMw-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;hls算子&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="115" y="70" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yxDq9Ks9lLOBpygDwxMw-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;strokeColor=#0F8B8D;fillColor=#FAE5C7;fontColor=#143642;size=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yxDq9Ks9lLOBpygDwxMw-6" value="pooling：求出输入图片每个2*2窗口的最大值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yxDq9Ks9lLOBpygDwxMw-7" value="full_connection:全连接算子，根据权重矩阵weight计算maps中数据的加权平均，并将结果存入Result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="230" y="50" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yxDq9Ks9lLOBpygDwxMw-8" value="biasrelu:偏置算子" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yxDq9Ks9lLOBpygDwxMw-9" value="conv：卷积算子" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
